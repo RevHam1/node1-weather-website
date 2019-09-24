@@ -4,6 +4,8 @@ body {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
+  align-items: center;
+  justify-content: center;
 
   display: flex;
   flex-direction: column;
@@ -31,6 +33,10 @@ h1 {
   margin-bottom: 16px;
 }
 
+header {
+  text-align: center;
+}
+
 header a {
   color: #888888;
   margin-right: 16px;
@@ -39,6 +45,7 @@ header a {
 
 .portrait {
   width: 250px;
+  border-radius: 50%;
 }
 
 input {
