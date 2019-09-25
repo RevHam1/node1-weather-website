@@ -35,7 +35,8 @@ app.get("/about", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    message: "This is the help page.",
+    message:
+      "This is the help page.  After selecting the weather tag above, enter in the location box one of three pieces of information; 1) The name of a city, 2) The city and state/region/country or 3) The zip code.",
     title: "Help",
     name: "Tyrone Oldham"
   });
