@@ -12,6 +12,42 @@ body {
   min-height: 100vh;
 }
 
+.index-background {
+  position: relative;
+  background: url("../img/background3.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.blue-background {
+  position: relative;
+  background: url("../img/blue2.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+header a {
+  color: #888888;
+  margin-right: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover {
+  /* font-size: 16px; */
+  color: yellow;
+}
+
 .main-content {
   flex-grow: 1;
 }
@@ -28,24 +64,15 @@ header {
   margin-bottom: 48px;
 }
 
+.center_p {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+
 h1 {
   font-size: 64px;
   margin-bottom: 16px;
-}
-
-header {
-  text-align: center;
-}
-
-header a {
-  color: #888888;
-  margin-right: 16px;
-  text-decoration: none;
-}
-
-.portrait {
-  width: 250px;
-  border-radius: 50%;
 }
 
 input {
@@ -60,3 +87,8 @@ button {
   color: white;
   padding: 8px;
 }
+
+/* .portrait {
+  width: 250px;
+  border-radius: 50%;
+} */
